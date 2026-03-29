@@ -7,6 +7,9 @@
     <label>Croma Order Name</label>
     <displayFormat>CO-{0000}</displayFormat>
 </nameField>
+
+    <deploymentStatus>Deployed</deploymentStatus>
+    <sharingModel>ReadWrite</sharingModel>
     <fields>
         <fullName>Account__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
