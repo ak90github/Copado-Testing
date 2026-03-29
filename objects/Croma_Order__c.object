@@ -2,6 +2,11 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
 <label>Croma Order</label>
     <pluralLabel>Croma Orders</pluralLabel>
+<nameField>
+    <type>AutoNumber</type>
+    <label>Croma Order Name</label>
+    <displayFormat>CO-{0000}</displayFormat>
+</nameField>
     <fields>
         <fullName>Account__c</fullName>
         <deleteConstraint>SetNull</deleteConstraint>
